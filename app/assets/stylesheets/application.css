@@ -13,3 +13,49 @@
  *= require_tree .
  *= require_self
  */
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+body {
+  color: rgb(255, 255, 255);
+  background: rgb(12, 12, 12);
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+h1 {
+  padding: 20px;
+}
+li {
+  list-style-type: none;
+  display: inline;
+  margin: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.yes {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 20px;
+  background: rgb(62, 255, 139);
+  border-radius: 10px;
+}
+
+.no {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 20px;
+  background: rgb(255, 78, 67);
+  border-radius: 10px;
+}
+
+.done {
+  width: 30px;
+  height: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 20px;
+  background: rgb(0, 191, 213);
+  border-radius: 10px;
+}
